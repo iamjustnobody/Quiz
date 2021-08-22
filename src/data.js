@@ -23,7 +23,8 @@ const data = [
       question: "Does Xiaxin really likes Chris Smith?",
       incorrectAnswers: [
           "Afraid she might not, no matter how mind-blowing handsome Chris is - she likes CSS though.", //"She might not - she prefers CSS instead.", 
-          "Who knows?",// The whole world knows? Only she knows? Chris also knew?", 
+          //"Who knows?",// The whole world knows? Only she knows? Chris also knew?", 
+          "Who knows? she might or might not - it's Schrödinger's cat",
           "Definitely No - not today - not in a million seconds (11.5740741 days)"
         ],
       correctAnswer: "YES she does!",
@@ -41,9 +42,10 @@ const data = [
       question: "Why does Xiaxin like Chris Smith?",
       incorrectAnswers: [
         "Because no one ignores her quite the way that he did",
-        "Because no one travels faster than speed of light",
+        "Because nothing travels faster than speed of light",
         "Actually she prefers CSS instead, regardless of how stunningly attractive Chris is",//"Because she likes CSS",
-        "Because no one makes her less unhappy than him."
+        "Because no one makes her less unhappy than him.",
+        "Because nothing brightens up a room like his absence."
       ],
       correctAnswer:  "Because she wants to.",
     },
@@ -78,9 +80,11 @@ const data = [
     {
         question: "What's in Xiaxin's mind when she first met Chris Smith?",
         incorrectAnswers: [
-          "Who am I? Where am I? Where am I from?",
+          "Who am I? Where am I? Why am I here? Where am I from & Where I am going?",
           "What will I have for dinner tonight? Pork belly or salmon en croute? What have I got in my fridge?",
-          "E=M*C^2 2H2+O2->2H2O e^x=1+x+x^2/2!+x^3/3!+... L{(e^-at)*cos(wt)*u(t)}=(s+a)/((s+a)^2+w^2) y^2=2px x^2+y^2-2*x=0 (x^2/a)+/-(y^2/b)=1 V.E=p/e0 V.B=0 VxE=-aB/at VxH=J+aD/at",
+          //"E=M*C^2 2H2+O2->2H2O e^x=1+x+x^2/2!+x^3/3!+... L{(e^-at)*cos(wt)*u(t)}=(s+a)/((s+a)^2+w^2) y^2=2px x^2+y^2-2*x=0 (x^2/a)+/-(y^2/b)=1 V.E=p/e0 V.B=0 VxE=-aB/at VxH=J+aD/at",
+          "From E=MC^2 to quantum entanglement",
+          "Does Taylor Swift have to know Talor Series e^x=1+x+x^2/2!+x^3/3!+...? - at least she can write songs but I have no talents."
         ],
         correctAnswer: "Her heart fliped - in the first 2 secs her mind got blank. The whole world slowed down and everything around him just became blur. She could not take her eyes off Chris. felt like the time was frozen.",
       },
