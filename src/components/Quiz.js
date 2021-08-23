@@ -12,7 +12,7 @@ const Quiz=()=>{
                     <div className="results-info">
                         <div>You have completed the practice.</div>
                         <div>You've got {quizState.correctAnswerCount} of {quizState.QnAs.length}</div>
-                        <p>Hi Chris - You've probably been aware of this long time ago - 
+                        <p className="summary">Hi Chris - You've probably been aware of this long time ago - 
                             I've been very fond of you ever since 2 secs after we first met.
                             I know it is a corney thing to say but life is truely too short not to go big.
                             I just dont wanna regret for the things I want to say but never found a chance to.
@@ -24,7 +24,7 @@ const Quiz=()=>{
                             It's been a bit frustrating that you didn't seem interested in getting to know more about me or spending more time with me.
                             Maybe that no positive signals is in fact a negative signal you sent to me.
                             But that's fine - I just wanna make it crystal clear to you where my heart lies - that's all. As simple as that.</p>
-                        <div className="next-button" onClick={()=>dispatch({type:"RETAKE"})}>Retake</div>
+                        <div className="retake-button" onClick={()=>dispatch({type:"RETAKE"})}>Retake</div>
                     </div>
                 </div>
             )}
