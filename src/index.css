@@ -224,10 +224,10 @@ div {
   font-weight: 600;
 }
 
-.retake-button{
+.retake-button, .answer, .next-button{
   box-shadow: -1px -1px 3px rgba(255,255,255,0.1), 2px 2px 6px rgba(0,0,0,0.8);
 }
-.retake-button:hover{
+.retake-button:hover,.answer:hover, .next-button:hover{
   box-shadow: -1px -1px 3px rgba(255,255,255,0.1), 2px 2px 6px rgba(0,0,0,0.8),
   inset -2px -2px 10px rgba(255,255,255,0.05), inset 2px 2px 10px rgba(0,0,0,0.5);
 
@@ -261,4 +261,40 @@ div {
   padding: 20px;
   margin-bottom: 35px;
   border-radius: 7px;
+}
+
+.paragraph{
+  text-align: justify;
+}
+.summary{
+  background-color: #091921;
+  background-color: #1d222b;
+  border: 2px solid #444;
+  box-shadow: inset -1px -1px 3px rgba(255,255,255,0.1), inset 2px 2px 6px rgba(0,0,0,0.8);
+  /*box-shadow: /*-1px -1px 3px rgba(255,255,255,0.1), 2px 2px 6px rgba(0,0,0,0.8),*/
+  /*inset -1px -1px 3px rgba(255,255,255,0.1), inset 2px 2px 6px rgba(0,0,0,0.8);
+              /*insert -2px -2px 10px rgba(255,255,255,0.05), insert 2px 2px 10px rgba(0,0,0,0.5);*/
+}
+.correct-answer,.wrong-answer{
+  box-shadow: inset -1px -1px 3px rgba(255,255,255,0.1), inset 2px 2px 6px rgba(0,0,0,0.8);
+}
+.congratulations{
+  background: rgba(255,255,255,0.05);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+}
+
+.paragraph{
+  line-height: 140%;
+  font-family: 'Patrick Hand', cursive;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Glory', sans-serif;
+  font-size:1.1em;
+}
+#my-audio{
+  position: fixed;
+  bottom:0;
+  right: 0;
 }

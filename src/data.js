@@ -8,7 +8,68 @@ const data = [
       ],
       correctAnswer: "Cascading Style Sheets"
     },
-  
+    {
+      question: "When & Where did Chris and Xiaxin first met each other?",
+      incorrectAnswers: [
+        "Jan 12, 1990 & Putian, Fujian, China",
+        "Oct 11, 2013 & Heysham 1 Power Station",
+        "Jul 11, 2009 & Tesco Extra, Cardiff",
+        "Sep 03, 2007 & Beijing, China "
+      ],
+      correctAnswer: "Jul 9, 2017 & Gloucester Leisure Center",
+    },
+    {
+      question:
+        "What's Xiaxin's biggest secret?",
+      incorrectAnswers: [
+        "She likes Chris - but just slightly more than she likes bacon - definitely not as much as a pig loves not being bacon.",
+        "She strongly dislikes her boss and wants to quite the job",
+        "She might or might not like Chris - it's Schrödinger's cat",
+      ],
+      correctAnswer: "She kind of sort of maybe likes Chris A LOT more than she originally planned.",
+    },
+    {
+      question: "What's in Xiaxin's mind when she first met Chris Smith?",
+      incorrectAnswers: [
+        "Who am I? Where am I? Why am I here? Where am I from & Where I am going?",
+        "What will I have for dinner tonight? Pork belly or salmon en croute? What have I got in my fridge?",
+          //"E=M*C^2 2H2+O2->2H2O e^x=1+x+x^2/2!+x^3/3!+... L{(e^-at)*cos(wt)*u(t)}=(s+a)/((s+a)^2+w^2) y^2=2px x^2+y^2-2*x=0 (x^2/a)+/-(y^2/b)=1 V.E=p/e0 V.B=0 VxE=-aB/at VxH=J+aD/at",
+        "From E=MC^2 to quantum entanglement",
+        "Does Taylor Swift have to know Talor Series e^x=1+x+x^2/2!+x^3/3!+...? - at least she can write songs but I have no talents."
+      ],
+      correctAnswer: "Her heart fliped - in the first 2 secs her mind got blank. The whole world slowed down and everything around him just became blur. She could not take her eyes off Chris. felt like the time was frozen \n"
+                      +" - might sound sappy but that's her true feelings.",
+    },
+    {
+      question: "When did Xiaxin start to fancy Chris Smith?",
+      incorrectAnswers: [
+        "Just now",
+        "Right after she first met him",
+        "3.1415926 secs after she first met him",
+      ],
+      correctAnswer: "2 secs after she first met him",
+    },
+    {
+      question: "What are the two bravest things Xiaxin has ever done or she never thought she'd do?",
+      incorrectAnswers: [
+        "Going study aboard, and getting a job offer after graduation",
+        "Asking Charlie out to play badminton, and asking Chris for connecting on LinkedIn",
+        "Initiating contact with Chris (via LinkedIn, then email, then text), and asking him out as an event manager organising birthday activities",
+      ],
+      correctAnswer: "Baking birthday cakes (& cupcakes/muffins) for Chris' birthday, and planting a kiss on his cheek (she might look serious but she's freaking nervous inside!).",
+    },
+    {
+      question: "What's Xiaxin's dream? Her dream is to ...",
+      incorrectAnswers: [
+          "have a dream in life", 
+          "have a perfect weekend that lasts until next Friday", 
+          "watch talkshow EVERY NIGHT with Chris",
+          "make fun of Chris but never get tired of doing that",
+          "make all colleagues think she works super hard - even when she sometimes runs out of unproductive things to do at work but still pretends to be busy doing things she doesn't need to in order to avoid doing anything she's supposed to be doing."
+        ],
+      correctAnswer: "have a house with someone she likes where they each were doing their own things; if they came across something funny or intersting, they stopped, shared it with each other, laughed about it, and went back to what they were doing...just like that growing old & disgusting with each other, and becoming each other's emergency contact person... It'd be awesome if that person were Chris Smith...Just a thought - hope it won't freak him out!",
+      //sounds sweet coz it's just her dream life.",
+    },/*
     {
       question:
         "What's Xiaxin's biggest secret?",
@@ -66,46 +127,7 @@ const data = [
           "make all colleagues think she works super hard - even when she sometimes runs out of unproductive things to do at work but still pretends to be busy doing things she doesn't need to in order to avoid doing anything she's supposed to be doing."
         ],
       correctAnswer: "have a house with someone she likes where they each were doing their own things; if they came across something funny or intersting they stopped, shared it with each other, laughed about it, and went back to what they were doing...just like that growing old & disgusting with each other, and becoming each other's emergency contact person... It'd be awesome if that person were Chris Smith... sounds sweet ccoz it's just her dream life.",
-    },
-    {
-      question: "When & Where did Chris and Xiaxin first met each other?",
-      incorrectAnswers: [
-        "Jan 12, 1990 & Putian, Fujian, China",
-        "Oct 11, 2013 & Heysham 1 Power Station",
-        "Jul 11, 2009 & Tesco Extra, Cardiff",
-        "Sep 03, 2007 & Beijing, China "
-      ],
-      correctAnswer: "Jul 9, 2017 & Gloucester Leisure Center",
-    },
-    {
-        question: "What's in Xiaxin's mind when she first met Chris Smith?",
-        incorrectAnswers: [
-          "Who am I? Where am I? Why am I here? Where am I from & Where I am going?",
-          "What will I have for dinner tonight? Pork belly or salmon en croute? What have I got in my fridge?",
-          //"E=M*C^2 2H2+O2->2H2O e^x=1+x+x^2/2!+x^3/3!+... L{(e^-at)*cos(wt)*u(t)}=(s+a)/((s+a)^2+w^2) y^2=2px x^2+y^2-2*x=0 (x^2/a)+/-(y^2/b)=1 V.E=p/e0 V.B=0 VxE=-aB/at VxH=J+aD/at",
-          "From E=MC^2 to quantum entanglement",
-          "Does Taylor Swift have to know Talor Series e^x=1+x+x^2/2!+x^3/3!+...? - at least she can write songs but I have no talents."
-        ],
-        correctAnswer: "Her heart fliped - in the first 2 secs her mind got blank. The whole world slowed down and everything around him just became blur. She could not take her eyes off Chris. felt like the time was frozen.",
-      },
-      {
-        question: "When did Xiaxin stat to fancy Chris Smith?",
-        incorrectAnswers: [
-          "Just now",
-          "Right after she first met him",
-          "3.1415926 secs after she first met him",
-        ],
-        correctAnswer: "2 secs after she first met him",
-      },
-      {
-        question: "What are the two bravest things Xiaxin has ever done or she never thought she'd do?",
-        incorrectAnswers: [
-          "Going study aboard, and getting a job offer after graduation",
-          "Asking Charlie out to play badminton, and asking Chris for connecting on LinkedIn",
-          "Initiating contact with Chris (via LinkedIn, then email, then text), and asking him out as an event manager",
-        ],
-        correctAnswer: "Baking birthday cakes (& cupcakes/muffines) for Chris' birthday, and planting a kiss on his cheek.",
-      },
+    },*/
   ];
   
   export default data;
