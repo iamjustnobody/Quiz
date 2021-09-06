@@ -1,5 +1,5 @@
 import { createContext, useReducer } from "react";
-import QnAs from '../data'
+import QnAs from '../data-bu'
 import { shuffleAnswers } from "../helpers";
 
 const initialState={
